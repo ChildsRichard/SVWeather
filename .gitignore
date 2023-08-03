@@ -1,0 +1,37 @@
+# Xcode
+
+Secrets.swift
+.DS_Store
+*.xcuserstate
+*.xcworkspace/
+
+# Swift Package Manager
+/.build/
+
+# Xcode per-user config
+/*.mode1
+/*.mode2v3
+/*.mode3
+/*.moved-aside
+/*.pbxuser
+/*.perspectivev3
+
+# Swift Package Manager
+/Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+/Carthage/Build/
+
+# fastlane
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/screenshots/
+/fastlane/test_output/
+
+# Code coverage
+/*.gcno
+/*.gcda
