@@ -217,19 +217,19 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Ohc-Q5-uK0">
                                                         <rect key="frame" x="0.0" y="0.0" width="161.66666666666666" height="64.666666666666671"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thermometer.sun" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="H45-bC-7OL">
-                                                                <rect key="frame" x="0.0" y="-3.0000000000000036" width="33" height="68.000000000000014"/>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.moon.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="H45-bC-7OL">
+                                                                <rect key="frame" x="-0.33333333333333393" y="2" width="32" height="61.666666666666671"/>
                                                             </imageView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="0iG-aK-taV">
                                                                 <rect key="frame" x="39.666666666666671" y="0.0" width="122.00000000000001" height="64.666666666666671"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="48" verticalCompressionResistancePriority="48" text="Feels Like" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="RiT-cr-hMz">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="48" verticalCompressionResistancePriority="48" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="RiT-cr-hMz">
                                                                         <rect key="frame" x="0.0" y="0.0" width="97" height="32.333333333333336"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="65°" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="hDf-j4-Yt7">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clear" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="hDf-j4-Yt7">
                                                                         <rect key="frame" x="0.0" y="32.333333333333371" width="32" height="32.333333333333343"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                                         <nil key="textColor"/>
@@ -411,13 +411,13 @@
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="mlc-2C-jVV">
                                                                 <rect key="frame" x="39.666666666666664" y="0.0" width="121.66666666666669" height="64.666666666666671"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="48" verticalCompressionResistancePriority="48" text="Precipitation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="KSe-Tw-kRl">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="48" verticalCompressionResistancePriority="48" text="Feels Like" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="KSe-Tw-kRl">
                                                                         <rect key="frame" x="0.0" y="0.0" width="96.666666666666671" height="32.333333333333336"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Eid-iP-9Fe">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="70°" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Eid-iP-9Fe">
                                                                         <rect key="frame" x="0.0" y="32.333333333333258" width="36.333333333333336" height="32.333333333333343"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                                         <nil key="textColor"/>
@@ -493,7 +493,17 @@
                     </navigationItem>
                     <connections>
                         <outlet property="cityLabel" destination="W1X-ls-Y7q" id="qFe-M0-rYC"/>
+                        <outlet property="descriptionLabel" destination="hDf-j4-Yt7" id="jHx-6J-vtS"/>
+                        <outlet property="feelsLikeLabel" destination="Eid-iP-9Fe" id="Jpz-RB-J2F"/>
+                        <outlet property="hiTempLabel" destination="VV1-Cf-KZg" id="DbJ-ym-ykf"/>
+                        <outlet property="humidityLabel" destination="GnG-PZ-V9i" id="6Yd-lX-I4m"/>
+                        <outlet property="loTempLabel" destination="uWh-ib-cBz" id="V7p-hk-Gg8"/>
                         <outlet property="searchTextField" destination="503-3m-cYh" id="IYU-OY-8PE"/>
+                        <outlet property="sunriseTimeLabel" destination="d94-qj-5HK" id="sMK-80-Fke"/>
+                        <outlet property="sunsetTimeLabel" destination="F6N-vd-WbW" id="Ndh-TS-ujr"/>
+                        <outlet property="tempLabel" destination="bUa-yp-PLS" id="iyb-cZ-w4r"/>
+                        <outlet property="weatherImageView" destination="3g8-J5-h5d" id="v3N-KH-7AL"/>
+                        <outlet property="windLabel" destination="1UF-l9-vYl" id="jOf-XQ-QFl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -520,6 +530,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cloud.moon.fill" catalog="system" width="128" height="96"/>
         <image name="cloud.rain.fill" catalog="system" width="126" height="128"/>
         <image name="cloud.sun.fill" catalog="system" width="128" height="101"/>
         <image name="humidity.fill" catalog="system" width="128" height="106"/>
@@ -527,25 +538,24 @@
         <image name="sun.max" catalog="system" width="128" height="125"/>
         <image name="sunrise.fill" catalog="system" width="128" height="97"/>
         <image name="sunset.fill" catalog="system" width="128" height="97"/>
-        <image name="thermometer.sun" catalog="system" width="104" height="128"/>
         <image name="wind" catalog="system" width="128" height="103"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemIndigoColor">
-            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiaryLabelColor">
-            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29803921570000003" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
