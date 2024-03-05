@@ -14,10 +14,12 @@ protocol WeatherManagerDelegate {
 let apiKey = Secrets.apiKey
 
 struct WeatherManager {
+    let apiResultsManager = APIResultsManager()
     
     var delegate: WeatherManagerDelegate?
     
     let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=\(apiKey)&units=imperial"
+    
     func fetchWeather(cityName: String){
         let urlString = "\(weatherURL)&q=\(cityName)"
         performRequest(urlString: urlString)
@@ -35,12 +37,11 @@ struct WeatherManager {
                 if let safeData = data {
                    
                     if let model = self.parseJSON(weatherdata: safeData){
-                        self.delegate?.didUpdateWeather(weatherdata: model)
-                    }
                         
-                    
-                    
-                    
+                        apiResultsManager.didReceiveWeatherData(weatherModel: model)
+                        
+                    }
+    
                 }
                 
             }
@@ -64,7 +65,7 @@ struct WeatherManager {
             let main = weather.weather[0].main
             let windSpeed = weather.wind.speed
             let windDeg = weather.wind.deg
-            
+        
             let sunrise = weather.sys.sunrise
             let sunriseDate = Date(timeIntervalSince1970: sunrise)
             let formatter = DateFormatter()
